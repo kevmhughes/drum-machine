@@ -74,6 +74,7 @@ class App extends Component {
   render() {
     return(
       <div id="drum-machine">
+        <div className="top"></div>
         <div id="display">{this.state.display}</div>
           <div id="drum-layout">
             {this.data.map(d => ( 

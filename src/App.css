@@ -1,3 +1,11 @@
+#drum-machine {
+    background-color: black;
+    width: 500px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
  #drum-layout {
     display: flex;
     flex-direction: row;
@@ -6,6 +14,7 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 10px;
 }
 
 .drum-pad {
@@ -21,9 +30,18 @@
 #display {
     display: flex;
     flex-direction: row;
-    width: 460px;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: darkslategrey;
+    width: 400px;
+    margin-top: 10p;
+    padding: 10px;
 }
+
+.top {
+    height: 20px;
+}
+
