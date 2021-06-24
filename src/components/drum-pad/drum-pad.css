@@ -13,6 +13,12 @@
     hsl(0,0%,70%)100%);
 }
 
+@media (max-width: 500px) {
+  .drum-pad.linear {
+    width: 28vw;
+  }
+}
+
 
 
 

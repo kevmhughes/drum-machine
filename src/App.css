@@ -15,6 +15,12 @@
     background-color: rgb(33 37 34);
     box-shadow: rgb(0 0 0 / 30%) 18px 20px 13px 5px, rgb(0 0 0 / 22%) 19px 20px 12px;
 }
+
+@media (max-width: 500px) {
+    #drum-machine {
+      width: 100vw;
+    }
+  }
  
  #drum-layout {
     display: flex;
@@ -26,6 +32,12 @@
     margin-right:auto;
     margin-top: 5px;
 }
+
+@media (max-width: 500px) {
+    #drum-layout {
+      width: 90vw;
+    }
+  }
 
 #display {
     display: flex;
@@ -42,6 +54,12 @@
     width: 220px;
 }
 
+@media (max-width: 500px) {
+    .slider {
+      width: 43vw;
+    }
+  }
+
 #change-pad-button {
     width: 130px;
     height: 40px;
@@ -55,6 +73,12 @@
     hsl(0,0%,78%) 53%,
     hsl(0,0%,70%)100%);
 }
+
+@media (max-width: 500px) {
+    #change-pad-button {
+      width: 28vw;
+    }
+  }
 
 #display-two {
     display: flex;
@@ -75,6 +99,12 @@
     margin-right: auto;
 }
 
+@media (max-width: 500px) {
+    #display-panel {
+      width: 87vw;
+    }
+  }
+
 .top {
     height: 30px;
 }
@@ -89,4 +119,9 @@
     margin-top: 10px;
 }
 
-
+@media (max-width: 500px) {
+    .control-panel {
+      width: 90vw;
+    }
+  }
+  
