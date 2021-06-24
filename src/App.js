@@ -55,9 +55,9 @@ class App extends Component {
             {this.state.display}
           </div>
           {this.state.switch ? <div id="display-two">
-          Roland 808
+          Kit 1
           </div> : <div id="display-two">
-          Roland 909
+          Kit 2
           </div> }
         </div>
         <div className="control-panel">
