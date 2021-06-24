@@ -36,7 +36,7 @@ export default class DrumPad extends Component {
   render() {
     return(
         <button 
-          className="drum-pad" 
+          className="drum-pad linear" 
           onClick={this.handleClick}
           id={this.props.id}>
           <h1>{this.props.letter}</h1>

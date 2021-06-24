@@ -1,15 +1,19 @@
 #root {
+    background-image: url(./assets/table.jpeg);
     display: flex;
     align-items: center;
     height: 100vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 #drum-machine {
     width: 500px;
-    height: 560px;
+    height: 580px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(33 37 34)
+    background-color: rgb(33 37 34);
+    box-shadow: rgb(0 0 0 / 30%) 18px 20px 13px 5px, rgb(0 0 0 / 22%) 19px 20px 12px;
 }
  
  #drum-layout {
@@ -20,7 +24,7 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #display {
@@ -35,12 +39,21 @@
 }
 
 .slider {
-    width: 260px;
+    width: 220px;
 }
 
 #change-pad-button {
     width: 130px;
+    height: 40px;
     margin-left: 10px;
+    background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+    
+    linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+    hsl(0,0%,90%) 47%, 
+    hsl(0,0%,78%) 53%,
+    hsl(0,0%,70%)100%);
 }
 
 #display-two {
@@ -63,7 +76,7 @@
 }
 
 .top {
-    height: 20px;
+    height: 30px;
 }
 
 .control-panel {
@@ -75,4 +88,5 @@
     margin-right: auto;
     margin-top: 10px;
 }
+
 

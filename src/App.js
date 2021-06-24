@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import NinePads from './components/nine-pads/nine-pads';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faDrum, faVolumeDown, faVolumeUp,
+} from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 class App extends Component {
@@ -18,15 +22,6 @@ class App extends Component {
     this.setState(prevState => ({
       switch: !prevState.switch
     }));
-    this.state.switch
-    ? 
-    this.setState({
-      displayTwo: 'Pad: 808'
-    }) 
-    :
-    this.setState({
-      displayTwo: 'Pad: 909'
-    });
   }
 
   handleDisplay = display => this.setState({ display })
@@ -60,13 +55,15 @@ class App extends Component {
             {this.state.display}
           </div>
           {this.state.switch ? <div id="display-two">
-          Pad: 808
+          Roland 808
           </div> : <div id="display-two">
-          Pad: 909
+          Roland 909
           </div> }
         </div>
         <div className="control-panel">
           <div >
+              <FontAwesomeIcon icon={faVolumeDown} style={{ marginRight: '5px',
+    color:'darkgray' }}/>
               <input
                   className="slider"
                   max='1'
@@ -76,13 +73,14 @@ class App extends Component {
                   type='range'
                   value={this.state.sliderVal}
                 />
+                <FontAwesomeIcon icon={faVolumeUp} style={{ marginLeft: '5px',
+    color:'darkgray' }}/>
             </div>
           <button 
             onClick={this.handleSwitch} 
-            className="btn btn-primary"
             id="change-pad-button"
           >
-            Change Pad
+            <FontAwesomeIcon icon={faDrum} style={{ fontSize:'28px' }}/>
           </button>
         </div>
         <NinePads 
