@@ -4,7 +4,6 @@ import './drum-pad.css';
 export default class DrumPad extends Component {
   constructor(props){
     super(props);
-
     this.state = {
     };
     this.handleKeyDown = this.handleKeyDown.bind(this);

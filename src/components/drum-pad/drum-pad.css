@@ -18,15 +18,6 @@
     justify-content: center;
 }
 
-.drum-pad:after {
-    width: 130px;
-    height: 130px;
-    background-color: rgb(97, 97, 97);
-    margin: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
