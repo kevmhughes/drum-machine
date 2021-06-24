@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import './drum-pad.css';
 
 export default class DrumPad extends Component {
   constructor(props){
     super(props);
-    this.state = {
 
+    this.state = {
     };
+    this.handleKeyDown = this.handleKeyDown.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {

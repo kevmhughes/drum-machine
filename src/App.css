@@ -1,9 +1,15 @@
+#root {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
 #drum-machine {
-    background-color: black;
     width: 500px;
-    height: 520px;
+    height: 560px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(33 37 34)
 }
  
  #drum-layout {
@@ -17,31 +23,56 @@
     margin-top: 10px;
 }
 
-.drum-pad {
-    width: 130px;
-    height: 130px;
-    background-color: grey;
-    margin: 3px;
+#display {
     display: flex;
+    height: 50px;
+    background-color: darkslategrey;
+    width: 260px;
+    margin-top: 10p;
+    padding: 10px;
     align-items: center;
     justify-content: center;
 }
 
-#display {
+.slider {
+    width: 260px;
+}
+
+#change-pad-button {
+    width: 130px;
+    margin-left: 10px;
+}
+
+#display-two {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
     height: 50px;
     background-color: darkslategrey;
-    width: 400px;
+    width: 130px;
     margin-top: 10p;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#display-panel {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .top {
     height: 20px;
+}
+
+.control-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
