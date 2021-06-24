@@ -61,7 +61,7 @@ class App extends Component {
           </div> }
         </div>
         <div className="control-panel">
-          <div >
+          <div style={{ display: 'flex' }}>
               <FontAwesomeIcon icon={faVolumeDown} style={{ marginRight: '5px',
     color:'darkgray' }}/>
               <input
