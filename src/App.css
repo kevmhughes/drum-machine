@@ -39,6 +39,12 @@
     }
   }
 
+  @media (max-width: 400px) {
+    #drum-layout {
+      width: 100vw;
+    }
+  }
+
 #display {
     display: flex;
     height: 50px;
@@ -100,6 +106,12 @@
 }
 
 @media (max-width: 500px) {
+    #display-panel {
+      width: 87vw;
+    }
+  }
+
+  @media (max-width: 400px) {
     #display-panel {
       width: 87vw;
     }
