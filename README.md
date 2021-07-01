@@ -1,12 +1,14 @@
 # Drum Machine
 
+### What is it?
+A drum machine built with React.
+
 # Screenshots 
 #### Desktop: 
 <img src="https://user-images.githubusercontent.com/48656356/121443992-df127580-c98e-11eb-857e-7780528f505d.png" width="700">
 
 # See Live App Here:
 https://kevmhughes.github.io/drum-machine/
-
 
 # Tech Stack
 * React 
@@ -16,10 +18,6 @@ https://kevmhughes.github.io/drum-machine/
 
 # Libraries
 * Bootstrap
-
-
-### What is it?
-A simple drum machine built with React.
 
 ### Objective:
 Build a drum machine app with React that is functionally similar to this challenge from the Front End Development Libraries course on FreeCodeCamp: https://codepen.io/freeCodeCamp/full/MJyNMd.
