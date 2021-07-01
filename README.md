@@ -39,5 +39,3 @@ https://kevmhughes.github.io/drum-machine/
 # Development Environment
 * Node
 
-# Libraries
-* Bootstrap
