@@ -1,7 +1,7 @@
 # Drum Machine
 
 ### What is it?
-A simple drum machine built with React.
+A drum machine built with React.
 
 ### Objective:
 Build a drum machine app with React that is functionally similar to this challenge from the Front End Development Libraries course on FreeCodeCamp: https://codepen.io/freeCodeCamp/full/MJyNMd.
