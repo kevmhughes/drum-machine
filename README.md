@@ -27,7 +27,7 @@ User Story #7: When a .drum-pad is triggered, a string describing the associated
 
 # Screenshots 
 #### Desktop: 
-<img src="https://user-images.githubusercontent.com/48656356/121443992-df127580-c98e-11eb-857e-7780528f505d.png" width="700">
+<img src="https://user-images.githubusercontent.com/48656356/124045591-452f6d00-da10-11eb-982c-6986a456ef38.png" width="700">
 
 # See Live App Here:
 https://kevmhughes.github.io/drum-machine/
