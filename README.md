@@ -5,7 +5,7 @@ A drum machine built with React.
 
 # Screenshots 
 #### Desktop: 
-<img src="https://user-images.githubusercontent.com/48656356/121443992-df127580-c98e-11eb-857e-7780528f505d.png" width="700">
+<img src="https://user-images.githubusercontent.com/48656356/124046057-5e84e900-da11-11eb-8fde-b91da59a8193.png" width="700">
 
 # See Live App Here:
 https://kevmhughes.github.io/drum-machine/
