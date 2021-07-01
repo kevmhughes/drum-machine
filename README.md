@@ -1,21 +1,7 @@
 # Drum Machine
 
 ### What is it?
-A drum machine built with React.
-
-<img src="https://user-images.githubusercontent.com/48656356/124046057-5e84e900-da11-11eb-8fde-b91da59a8193.png" width="700">
-
-# See Live App Here:
-https://kevmhughes.github.io/drum-machine/
-
-# Tech Stack
-* React 
-
-# Development Environment
-* Node
-
-# Libraries
-* Bootstrap
+A simple drum machine built with React.
 
 ### Objective:
 Build a drum machine app with React that is functionally similar to this challenge from the Front End Development Libraries course on FreeCodeCamp: https://codepen.io/freeCodeCamp/full/MJyNMd.
@@ -38,3 +24,20 @@ User Story #5: When I click on a .drum-pad element, the audio clip contained in 
 User Story #6: When I press the trigger key associated with each .drum-pad, the audio clip contained in its child audio element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string Q, pressing the W key should trigger the drum pad which contains the string W, etc.).
 
 User Story #7: When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).
+
+# Screenshots 
+#### Desktop: 
+<img src="https://user-images.githubusercontent.com/48656356/124046057-5e84e900-da11-11eb-8fde-b91da59a8193.png" width="700">
+
+# See Live App Here:
+https://kevmhughes.github.io/drum-machine/
+
+
+# Tech Stack
+* React 
+
+# Development Environment
+* Node
+
+# Libraries
+* Bootstrap
