@@ -3,7 +3,7 @@
 ### What is it?
 A drum machine built with React.
 
-# Screenshots 
+# Screenshot 
 #### Desktop: 
 <img src="https://user-images.githubusercontent.com/48656356/124046057-5e84e900-da11-11eb-8fde-b91da59a8193.png" width="700">
 
